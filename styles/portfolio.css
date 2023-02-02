@@ -1,0 +1,209 @@
+/*banner style */
+* {
+    margin: 0;
+}
+
+.banner {
+    max-width: 1600px;
+    height: 808px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+}
+
+.banner_contents {
+    position: absolute;
+    text-align: right;
+    color: aliceblue;
+    font-style: normal;
+
+}
+
+.banner_title {
+    Width: 525px;
+    Height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin: 200px 230px 20px 845px;
+
+
+}
+
+.banner_subtitle {
+    height: 78px;
+    width: 494px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 230px 30px 876px;
+}
+
+.button_primary {
+    color: #005FAC;
+    background-color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+
+    height: 64px;
+    width: 160px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+
+    text-align: center;
+    margin: 15px 230px 30px 876px;
+    padding: 18px;
+
+}
+
+/* My failures of previous year */
+
+.person {
+    display: flex;
+    max-width: 1170px;
+    max-height: 700px;
+    gap: 40px;
+    text-align: center;
+    margin: 0 auto;
+    /* margin: 100px 230px 50px 294px; */
+    padding-bottom: 50px;
+}
+
+.person_contents {
+    margin: 270px 36px 40px;
+    text-align: left;
+}
+
+.person_title {
+    Font-style: Bold;
+    Font-size: 40px;
+    padding-bottom: 30px;
+
+}
+
+.person_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.person_list {
+    list-style-type: "\2705";
+}
+
+/* my plans */
+
+.my_plan {
+    text-align: center;
+    /* margin: 100px 230px 200px 294px; */
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.myplans_header {
+    font-family: 'Work Sans';
+    font-size: 40px;
+    Width: 179 px;
+    Height: 47px;
+    margin-bottom: 80px;
+}
+
+.plans_info-container {
+    display: flex;
+    width: 1200px;
+    height: 202.96px;
+    gap: 40px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
+
+}
+
+.plans_info-title {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.plans_info-description {
+    color: #737272;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Watch picture */
+
+.watch_picture {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 250px;
+    left: 260px;
+    top: 2222px;
+    border-radius: 8px;
+    
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* background-image: url(/images/watch.png); 
+    position: absolute;
+    max-width: 1200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+
+/* .picture-gradient{
+    background: url(/images/watch.png)  no-repeat; 
+    background-image: (90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%)  ;
+    max-width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222px;
+    border-radius: 8px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    color: aliceblue; 
+   
+}
+
+    */
+.gradient_contents {
+    position: absolute;
+    font-style: normal;
+    width: 459px;
+    height: 182px;
+    text-align: left;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 64px;
+    color: #FFFFFF;
+}
+
+.gradient_title {
+    Width: 500px;
+    Height: 110px;
+    font-weight: 700;
+    margin: 58px 600px 30px 64px; 
+}
+
+.button_secondary {
+    color: #005FAC;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
