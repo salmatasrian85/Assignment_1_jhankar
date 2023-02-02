@@ -8,7 +8,7 @@
     height: 808px;
     margin: 0 auto;
     padding-bottom: 50px;
-    
+
 }
 
 .banner_contents {
@@ -66,19 +66,21 @@
     display: flex;
     max-width: 1170px;
     max-height: 700px;
-    gap: 40px;
+    gap: 60px;
     text-align: center;
     margin: 0 auto;
     /* margin: 100px 230px 50px 294px; */
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .person_contents {
-    margin: 270px 36px 40px;
+    margin: 230px 36px 70px;
     text-align: left;
 }
 
 .person_title {
+    width: 288px;
+    height: 94px ;
     Font-style: Bold;
     Font-size: 40px;
     padding-bottom: 30px;
@@ -147,34 +149,9 @@
     left: 260px;
     top: 2222px;
     border-radius: 8px;
-    
     margin: 0 auto;
-    padding-bottom: 50px;
-    /* background-image: url(/images/watch.png); 
-    position: absolute;
-    max-width: 1200px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
-
-/* .picture-gradient{
-    background: url(/images/watch.png)  no-repeat; 
-    background-image: (90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%)  ;
-    max-width: 1140px;
-    height: 300px;
-    left: 230px;
-    top: 2222px;
-    border-radius: 8px;
-    justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    color: aliceblue; 
-   
-}
-
-    */
 .gradient_contents {
     position: absolute;
     font-style: normal;
@@ -183,7 +160,6 @@
     text-align: left;
     font-size: 40px;
     line-height: 47px;
-    margin: 64px;
     color: #FFFFFF;
 }
 
@@ -191,7 +167,7 @@
     Width: 500px;
     Height: 110px;
     font-weight: 700;
-    margin: 58px 600px 30px 64px; 
+    margin: 58px 600px 0px 64px;
 }
 
 .button_secondary {
@@ -200,10 +176,95 @@
     font-weight: 600;
     font-size: 20px;
     border: 0;
-    height: 64px;
-    width: 160px;
+    height: 50px;
+    width: 140px;
     border-radius: 5px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 64px;
 
 }
+
+/* LAst Container */
+
+.black_background {
+    background-color: black;
+    width: 1600px;
+    height: 450px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 50px;
+    padding-top: 130px;
+    padding-left: 350px;
+    display: flex;
+    gap: 320px;
+}
+
+.black_leftside_container {
+    text-align: left;
+    width: 485px;
+    height: 317px;
+    width: 485px;
+    color: #FFFFFF;
+}
+
+.container_contents {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.black_title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+
+}
+
+.icons_container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.black_rightside_container {
+    color: white;
+}
+
+.subs_header {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 5px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+
+}
+
+
+input {
+    height: 45px;
+    width: 325px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: black;
+    color: #737272;
+    border: 2px;
+    border-color: #737272;
+    border-radius: 8px;
+    border-style: solid;
+    padding-left: 15px;
+}
+
+.sub_button {
+    background-color: #005FAC;
+    border: 0;
+    height: 50px;
+    width: 140px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
