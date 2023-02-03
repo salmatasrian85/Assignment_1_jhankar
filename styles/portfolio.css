@@ -188,7 +188,7 @@
 /* Watch picture */
 
 .watch_picture {
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(/images/watch.jpg);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(images/watch.png);
     background-repeat: no-repeat;
     max-width: 1200px;
     height: 250px;
